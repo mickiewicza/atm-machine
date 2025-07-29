@@ -1,12 +1,8 @@
 import { type FC } from 'react';
-import Page from '@/pages/Page';
+import ATM from '@/components/ATM';
 
 const App: FC = () => {
-  return (
-    <>
-      <Page />
-    </>
-  );
+  return <ATM />;
 };
 
 export default App;
